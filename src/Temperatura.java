@@ -9,6 +9,21 @@ public class Temperatura {
 
 
 
+    //Constructor
+    /**
+     * Establece los valores esperados a introducir por el usuario
+     * @param temperatura
+     * @param diaSemana
+     */
+    public Temperatura(double temperatura, Semana diaSemana) {
+        this.diaSemana = diaSemana;
+        setTemperatura(temperatura);
+    }
+
+
+
+
+
     //Getter y setter
     static void setToCelsius() {
         tipo = Tipo.CELSIUS;
@@ -63,19 +78,6 @@ public class Temperatura {
         }
     }
 
-
-
-
-    //Constructor
-    /**
-     * Establece los valores esperados a introducir por el usuario
-     * @param temperatura
-     * @param diaSemana
-     */
-    public Temperatura(double temperatura, Semana diaSemana) {
-        this.diaSemana = diaSemana;
-        setTemperatura(temperatura);
-    }
 
 
 
