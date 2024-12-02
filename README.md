@@ -17,3 +17,10 @@
     3. Al igual que en el ejercicio numero 2, la variable estatica de x hace que cada que se le llama a la variable esta se actualice
     de forma global, por lo que su resultado final al imprimir es 16, mientras que Y, al ser una instancia, devuelve 1 ya que es 
     su valor por defecto y no aumenta globalmente, por lo que su resultado final al imprimir es 1.
+
+
+---
+
+### Reto 664
+
+![Captura de pantalla 2024-12-02 012501.png](IMG%2FCaptura%20de%20pantalla%202024-12-02%20012501.png)
